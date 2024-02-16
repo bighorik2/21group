@@ -20,6 +20,7 @@ const getSubTree = (tree, knots) => {
 export const CategoryPicker = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [knots, setKnots] = useState([])
+    const [currentGroup, setCurrentGroup] = useState(data)
     const ref = useOutsideClick(() => setIsOpen(false))
 
     return (
@@ -37,14 +38,16 @@ export const CategoryPicker = () => {
             </div>
             <div className="category-picker__add" ref={ref}>
                 <div className={`category-picker__add_panel ${isOpen && "isOpen"}`} >
-                    {getSubTree(data, knot)}
-                    <div className="category-picker__add_panel_item--back text-small-passive">
-                        <img src={backArrow}></img>
-                        <span>Скобные изделия</span>
-                    </div>
-                    {getSubTree(data, knots).groups.map((e, i) => (
+                    {currentGroup.name &&
+                        <div className="category-picker__add_panel_item--back text-small-passive"
+                            onClick={() => setCurrentGroup()}>
+                            <img src={backArrow}></img>
+                            <span>{currentGroup.name}</span>
+                        </div>
+                    }
+                    {currentGroup.groups.map((e, i) => (
                         <div key={i} className="category-picker__add_panel_item text-small"
-                            onClick={() => setKnots(prev => [...prev, i])}>
+                            onClick={() => setCurrentGroup(prev => prev.groups[i])}>
                             <span>{e.name}</span>
                             {e.groups.length > 0 && <img src={nextArrow}></img>}
                         </div>

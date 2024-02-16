@@ -1,0 +1,5 @@
+.product-category-picker{
+    display: flex;
+    flex-direction: column;
+    gap:34px;
+}

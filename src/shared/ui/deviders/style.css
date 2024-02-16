@@ -1,0 +1,7 @@
+.devider--horizontal{
+    width: 100%;
+    min-height: 1px;
+    max-height: 1px;
+    background: rgb(230, 230, 230);
+    flex:1;
+}

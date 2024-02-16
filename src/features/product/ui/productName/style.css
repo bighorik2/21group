@@ -1,0 +1,5 @@
+.product-name-input{
+    display: flex;
+    flex-direction: column;
+    gap:54px;
+}

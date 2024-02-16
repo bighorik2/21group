@@ -1,0 +1,8 @@
+.general{
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    gap:37px;
+    width: 100%;
+}
+

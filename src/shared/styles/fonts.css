@@ -1,69 +1,68 @@
 @import './fonts/fonts.import.css';
 
-.page-title{
+.page-title {
     color: rgb(48, 47, 45);
-font-family: Futura;
-font-size: 50px;
-font-weight: 500;
-line-height: 50px;
-letter-spacing: 0px;
-user-select: none;
+    font-family: Futura;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0px;
+    user-select: none;
 
 }
 
-.title-normal{
+.title-normal {
     color: rgb(48, 47, 45);
-font-family: Futura;
-font-size: 30px;
-font-weight: 500;
-line-height: 35px;
-letter-spacing: 0px;
-user-select: none;
+    font-family: Futura;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0px;
+    user-select: none;
 }
 
-.label-normal{
+.label-normal {
     color: rgb(48, 47, 45);
-font-family: Futura;
-font-size: 20px;
-font-weight: 500;
-line-height: 25px;
-letter-spacing: 0px;
-user-select: none;
+    font-family: Futura;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0px;
+    user-select: none;
 }
 
-.label-passive{
+.label-passive {
     color: rgb(84, 83, 81);
-font-family: Futura;
-font-size: 20px;
-font-weight: 500;
-line-height: 25px;
-letter-spacing: 0px;
-text-align: left;
-user-select: none;
+    font-family: Futura;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    user-select: none;
 }
 
-.button-text{
+.button-text {
     color: rgb(48, 47, 45);
-font-family: Futura;
-font-size: 16px;
-font-weight: 500;
-line-height: 18px;
-letter-spacing: 1px;
-text-transform: uppercase;
-user-select: none;
+    font-family: Futura;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    user-select: none;
 }
 
-.text-norm{
+.text-norm {
     color: rgb(48, 47, 45);
-font-family: Futura;
-font-size: 20px;
-font-weight: 500;
-line-height: 25px;
-letter-spacing: 0px;
+    font-family: Futura;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0px;
 }
 
-
-.text-small{
+.text-small {
     color: rgb(48, 47, 45);
     font-family: Futura;
     font-size: 17px;
@@ -73,11 +72,11 @@ letter-spacing: 0px;
     text-align: left;
 }
 
-.text-small-passive{
+.text-small-passive {
     color: rgb(153, 153, 153);
-font-family: Futura;
-font-size: 17px;
-font-weight: 500;
-line-height: 20px;
-letter-spacing: 0px;
+    font-family: Futura;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
 }

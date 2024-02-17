@@ -1,13 +1,20 @@
-.input{
+.input {
     display: flex;
     flex-direction: column;
-    gap:24px;
+    gap: 24px;
 }
 
-.input>input{
+.input>input {
 
-border: 1px solid rgb(230, 230, 230);
-background: rgb(250, 250, 250);
-width: 960px;
-height: 50px;
+    border: 1px solid rgb(230, 230, 230);
+    background: rgb(250, 250, 250);
+    width: 960px;
+    height: 50px;
+    transition: box-shadow 0.2s;
+}
+
+.input>input:focus {
+    outline: 0;
+    padding: 0 12px;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.089);
 }

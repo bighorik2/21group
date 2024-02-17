@@ -21,8 +21,19 @@
     user-select: none;
 }
 
-.category-picker__categories_item>img {
+.category-picker__categories_item_point {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.category-picker__categories_item_point>img {
     padding-top: 5px;
+}
+
+.category-picker__categories_item_point:nth-last-child(2)>img {
+    display: none;
 }
 
 .category-picker__categories_item_close {
@@ -87,6 +98,15 @@
 .category-picker__add_panel_item:active,
 .category-picker__add_panel_item--back:active {
     background-color: rgb(245, 245, 245);
+}
+
+
+.category-picker__add_panel_no-items {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    opacity: 0.7;
+    user-select: none;
 }
 
 .category-picker__add_button {

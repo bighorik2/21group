@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/21group/static/css/main.371f8b29.css",
+    "main.js": "/21group/static/js/main.dc526446.js",
+    "static/media/FuturaPTExtraBold.otf": "/21group/static/media/FuturaPTExtraBold.b0a404e778ba6bde9d55.otf",
+    "static/media/FuturaPTBold.otf": "/21group/static/media/FuturaPTBold.b22b8109a56a2445c366.otf",
+    "static/media/FuturaPTHeavy.otf": "/21group/static/media/FuturaPTHeavy.bee1d176707440e4d379.otf",
+    "static/media/FuturaPTDemi.otf": "/21group/static/media/FuturaPTDemi.2862dbd87fd60c04be93.otf",
+    "static/media/FuturaPTMedium.otf": "/21group/static/media/FuturaPTMedium.7af6976ce738bec1704e.otf",
+    "static/media/FuturaPTLight.otf": "/21group/static/media/FuturaPTLight.725c77b4e125ed776783.otf",
+    "static/media/FuturaPTBook.otf": "/21group/static/media/FuturaPTBook.bc305be0a88a100ad836.otf",
+    "static/media/addIcon.svg": "/21group/static/media/addIcon.05e95a41415ce9ee7f92990bd8b7140a.svg",
+    "static/media/closeIcon.svg": "/21group/static/media/closeIcon.20d674bb6b52e438c7138f52af36d886.svg",
+    "index.html": "/21group/index.html",
+    "static/media/arrow.svg": "/21group/static/media/arrow.cd747eaa2255555704881875306878ea.svg",
+    "static/media/backArrow.svg": "/21group/static/media/backArrow.4a9696f667e8aed52cf959b6d8cc6a9e.svg",
+    "static/media/nextArrow.svg": "/21group/static/media/nextArrow.737f553fd726076f08e13fe8e6d37a29.svg",
+    "main.371f8b29.css.map": "/21group/static/css/main.371f8b29.css.map",
+    "main.dc526446.js.map": "/21group/static/js/main.dc526446.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.371f8b29.css",
+    "static/js/main.dc526446.js"
+  ]
+}
